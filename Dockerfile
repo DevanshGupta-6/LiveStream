@@ -9,4 +9,4 @@ COPY /auth/* /root/app/auth/
 
 RUN ls -R /root/app/
 
-EXPOSE 3000
+EXPOSE 8080
