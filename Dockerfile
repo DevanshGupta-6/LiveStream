@@ -8,3 +8,5 @@ COPY /rtmp/* /root/app/rtmp/
 COPY /auth/* /root/app/auth/
 
 RUN ls -R /root/app/
+
+EXPOSE 8000
